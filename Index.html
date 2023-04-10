@@ -15,6 +15,8 @@
             <li> <a href="#informacion">Información</a></li>
             <li><a href="#casos">Casos</a></li>
             <li><a href="#footer">Footer</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav> 
 </header>
@@ -57,7 +59,115 @@
     <th><img src="/Imagenes/pogoeventos-sesionjuntos-34_7_115540-165153319911317.jpeg" alt="Eventos" width="480" height="380"></th>
 </tr>
     </table>
+<br><br>
+    <section id="galeria">
+        <h2>Tipos de fotos dependiendo el tipo de sesión:</h2>
 
+        <table>
+<tr>
+    <th>Bodas</th>
+    <th>Retratos</th>
+    <th>Productos</th>
+</tr>
+            
+<tr>
+    <th><img src="Imagenes 2/Bodas/53853-boda.jpeg" alt="ejemplo 1" width="480" height="380"></th>
+    <th><img src="Imagenes 2/Retratos/21_AdobeStock_81429425.avif" alt="ejemplo 1" width="480" height="380"></th>
+    <th><img src="Imagenes 2/Productos/Agustin_Hernandez_fotografo_sesiones_productos.jpg" alt="ejemplo 3" width="480" height="380"></th>
+</tr>
+
+<tr>
+    <th><img src="Imagenes 2/Bodas/elramovolador-inspiracionparabodas-3.jpg" alt="ejemplo 2" width="480" height="380"></th> 
+    <th><img src="Imagenes 2/Retratos/d4b3bb2c21a63a35623205f2a7e97b34.jpg" alt="ejemplo 2" width="480" height="380"></th>
+    <th><img src="Imagenes 2/Productos/dc11fa_fotografia-productos.jpg" alt="ejemplo 2" width="480" height="380"></th>
+</tr>
+
+<tr>
+    <th><img src="Imagenes 2/Bodas/ENG7341wwwwww.jpg" alt="ejemplo 3" width="480" height="380"></th>
+    <th><img src="Imagenes 2/Retratos/retratos-fotograficos-6-810x540.jpg" alt="ejemplo 3" width="480" height="380"></th>
+    <th><img src="Imagenes 2/Productos/foto-bodegon.jpg" alt="ejemplo 3" width="480" height="380"></th>
+</tr>
+
+        </table>
+    </section>
+
+    <section id="contacto">
+<h2>Cuentanos que opinas!</h2>
+
+<form action="action.php" method="get">
+
+    <label for="nombre">Nombre</label> <br>
+    <input type="text" placeholder="Ingrese su nombre"> <br>
+<br>
+    <label for="apellido">Apellido</label> <br>
+    <input type="text" placeholder="Ingrese su apellido"><br>
+<br>
+    <label for="edad">Edad</label><br>
+    <input type="number" name="edad" id="edad" min="1" max="100"><br>
+<br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="Ingrese su email"><br>
+<br>
+    <label for="contraseña">Contraseña</label><br>
+    <input type="password" name="contra" id="contra" placeholder="Ingrese su contraseña" pattern="\d{4,4}" required><br>
+<br>
+    <label for="fecha">Fecha de nacimiento</label><br>
+    <input type="date" name="fecha" id="fecha"><br>
+<br>
+    <label for="ejemplos">Inserte aqui ejemplos de sesiones que haya visto</label> <br>
+    <br>
+    <input type="file" name="ejemplos" id="ejemplos" placeholder="Ingrese aqui archivo de ejemplos"><br>
+    <br>
+    <input type="url" name="ejemplos" id="ejemplos" placeholder="Ingrese aqui link a sitio de ejemplos"><br>
+
+    <p>Desde donde nos escribes?</p>
+    <select name="paises" id="paises">
+<option value="default">Continentes</option>
+<option value="latin">Latinoamerica</option>
+<option value="Nort">Norteamerica</option>
+<option value="asia">Asia</option>
+<option value="africa">Africa</option>
+<option value="eu">Europa</option>
+<option value="oc">Oceania</option>
+    </select>
+
+    <p>Agregue algo que quiera decirnos!</p>
+    <textarea name="Agregados" id="" cols="30" rows="10" placeholder="Comentarios..."></textarea>
+    
+    <p>Como nos conociste?</p>
+
+    <input type="radio" name="red" id="instagram">
+    <label for="instagram">Instagram</label><br>
+
+    <input type="radio" name="red" id="facebook">
+    <label for="facebook">Facebook</label><br>
+
+    <input type="radio" name="red" id="twitter">
+    <label for="twitter">Twitter</label><br>
+    
+    <input type="radio" name="red" id="otro">
+    <label for="otro">Otro</label><br>
+
+    <p> En que tipos de sesión estarias interesado?</p>
+<input type="checkbox" name="tipos" id="eventos">
+<label for="eventos">Eventos</label><br>
+
+<input type="checkbox" name="tipos" id="retratos">
+<label for="retratos">Retratos</label><br>
+
+<input type="checkbox" name="tipos" id="productos">
+<label for="productos">Productos</label><br>
+
+<input type="checkbox" name="tipos" id="mascotas">
+<label for="mascotas">Mascotas</label><br>
+
+<input type="checkbox" name="tipos" id="indumentaria">
+<label for="indumentaria">Indumentaria</label><br>
+<br>
+<button type="submit" value="enviar">Enviar!</button>
+
+</form>
+    </section>
 
     <footer id="footer" >
         <h2> Contactanos! </h2>
